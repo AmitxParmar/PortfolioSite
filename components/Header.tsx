@@ -38,7 +38,12 @@ const Header = ({ }: Props) => {
                     bgColor='transparent'
                 />
                 <SocialIcon
-                    url='https://stackoverflow.com/users/20359990/amit'
+                    url='https://twitter.com/AmitxParmar'
+                    fgColor='gray'
+                    bgColor='transparent'
+                />
+                <SocialIcon
+                    url='https://www.linkedin.com/in/amit-parmar-665002221/'
                     fgColor='gray'
                     bgColor='transparent'
                 />
