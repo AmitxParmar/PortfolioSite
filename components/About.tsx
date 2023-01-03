@@ -1,7 +1,7 @@
-/* eslint-disable react/no-unescaped-entities */
-/* eslint-disable @next/next/no-img-element */
 import { motion } from 'framer-motion';
 
+/* eslint-disable react/no-unescaped-entities */
+/* eslint-disable @next/next/no-img-element */
 type Props = {};
 
 const About = (props: Props) => {
