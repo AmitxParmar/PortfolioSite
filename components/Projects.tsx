@@ -35,9 +35,10 @@ const Projects: FC = () => {
                                 <span className="underline decoration-[#f7ab0a]/50">
                                     Case Study {index + 1} of {projects.length}:
                                 </span>{" "}
-                                UPS clone
+                                instagram Clone
                             </h4>
                             <p className="text-lg text-center md:text-left">
+
                                 Lorem ipsum, dolor sit amet consectetur adipisicing elit. Culpa
                                 ipsa dolores minus expedita corrupti placeat magnam asperiores
                                 a, velit rem ex rerum temporibus nobis illo, corporis nesciunt

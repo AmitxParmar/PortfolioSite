@@ -2,6 +2,8 @@ import { motion } from 'framer-motion';
 import React from 'react';
 
 import ExperienceCard from './ExperienceCard';
+import Work2 from './Work';
+
 
 type Props = {};
 
@@ -17,7 +19,7 @@ const WorkExperience = (props: Props) => {
 
             <div className='w-full flex space-x-5 overflow-x-scroll p-10 snap-x snap-mandatory '>
                 <ExperienceCard />
-                <ExperienceCard />
+                <Work2 />
                 <ExperienceCard />
             </div>
         </motion.div>
