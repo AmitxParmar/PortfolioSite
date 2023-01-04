@@ -19,15 +19,7 @@ const Skills: FC = () => {
                 Hover over a skill for currency proficiency
             </h3>
 
-            <div className="grid grid-cols-4 gap-5">
-                <Skill />
-                <Skill />
-                <Skill />
-                <Skill />
-                <Skill />
-                <Skill />
-                <Skill />
-                <Skill />
+            <div className="grid grid-cols-4 gap-2">
                 <Skill />
                 <Skill />
                 <Skill />

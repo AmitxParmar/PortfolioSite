@@ -1,9 +1,11 @@
 /* eslint-disable @next/next/no-img-element */
-import React from 'react'
-import { Cursor, useTypewriter } from 'react-simple-typewriter'
-import BackgroundCircles from './BackgroundCircles';
 import Link from 'next/link';
-type Props = {}
+import React from 'react';
+import { Cursor, useTypewriter } from 'react-simple-typewriter';
+
+import BackgroundCircles from './BackgroundCircles';
+
+type Props = {};
 
 function Hero({ }: Props) {
     const [text, count] = useTypewriter({
@@ -13,7 +15,7 @@ function Hero({ }: Props) {
             "<ButLovesToCodeMore />",
         ],
         loop: true,
-        delaySpeed: 2000,
+        delaySpeed: 1000,
     });
 
     return (
@@ -60,4 +62,4 @@ function Hero({ }: Props) {
     );
 }
 
-export default Hero
+export default Hero;
